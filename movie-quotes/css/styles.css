@@ -1,0 +1,84 @@
+#title {
+    color: white;
+    font-family: Ghostbusters;
+    font-size: 50px;
+}
+
+#subheader {
+    font-family: Ghostbusters;
+    line-height: 1.2;
+}
+body {
+    background-color: black;
+    color: white;
+}
+#peter {
+    color: white; 
+    font-size: 20px;
+    background-color: #9E0A0F;
+    font-family: Roboto system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 250;
+    line-height: 1.2;
+    padding:5;
+}
+
+#dana{
+    color: black; 
+    font-size: 20px;
+    background-color: #AB9E8F;
+    font-weight: 250;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    ;
+    line-height: 1.2;
+    padding:5;
+}
+
+#mayor {
+    color: white; 
+    font-size: 20px;
+    background-color: #3C895A;
+    font-weight: 250;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.2;
+    padding:5;
+}
+
+#ray {
+    color: black; 
+    font-size: 20px;
+    background-color: #E5CA3E;
+    font-weight: 250;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.2;
+    padding:5;
+}
+
+#egon {
+    color: white; 
+    font-size: 20px;
+    background-color: #18568D;
+    font-weight: 250;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.2;
+    padding:5;
+}
+
+#winston {
+    color: white; 
+    font-size: 20px;
+    background-color: #573D87;
+    font-weight: 250;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.2;
+    padding:5;
+}
+
+#narrator {
+    color: white; 
+    font-size: 20px;
+    border-style: solid; color: white;
+    font-weight: 250;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.2;
+    padding:5;
+}
