@@ -1,0 +1,69 @@
+body {
+    font-family: 'Merriweather', serif;
+    text-indent: 2.4rem;
+    font-size: 20px;
+}
+
+h1 {
+    text-indent: 1rem;
+}
+
+h2 {
+    text-indent: 1rem;
+}
+
+h3 {
+    color: darkblue;
+}
+
+.normal {
+    font-weight: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.light {
+    font-weight: lighter;
+}
+
+.style {
+    font-style: italic;
+}
+
+.narrow {
+    letter-spacing: -.08em;
+}
+
+.wide {
+    letter-spacing: 0.4em;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.none {
+    text-decoration: none;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.overline {
+    text-decoration: overline;
+}
+
+.linethru {
+    text-decoration: line-through;
+}
