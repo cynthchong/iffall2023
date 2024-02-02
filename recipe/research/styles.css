@@ -1,0 +1,61 @@
+html {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    margin: 140px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #FAF9F5;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 7.5px;
+    align-items: center;
+    margin: 4px;
+    margin-bottom: 40px;
+}
+
+img {
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+}	
+
+h1 {
+    font-weight: 500;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+}
+
+h4 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 0.4em;
+}
+p {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+ul {
+    font-weight: normal;
+    font-size: 18px;
+    
+}
+
+small {
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+ol {
+    font-weight: normal;
+    font-size: 18px;
+}
