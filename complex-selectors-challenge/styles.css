@@ -53,7 +53,7 @@ img {
     content: "*";
 }
 
-.seasons ul:after {
+#game-of-thrones .seasons ul:after {
     content: "* Final Season";
     display: block;
     font-size: 0.7rem;
