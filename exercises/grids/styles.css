@@ -1,18 +1,24 @@
 .grid img{
-    width: 150px;
+    width: 90%;
 }
 
 .grid {
     padding: 0;
+    display: block;
 
 }
 
 .grid li {
     display: block;
+    width: 25%;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
 }
 
 .using-inline-block li {
     display: inline-block;
+    font-size: 0;
 }
 
 .using-inline-block {
@@ -28,4 +34,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 
+}
+
+.using-grid li {
+    width: 100%;
 }
