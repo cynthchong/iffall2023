@@ -1,0 +1,330 @@
+
+html {
+    background-color: #fcf8e7;
+}
+
+body {
+    margin: 0;
+    margin-left: auto; margin-right: auto;
+    width: 100%;
+}
+
+.column_container {
+    margin: auto;
+    max-width: 100%;
+}
+
+header .column_container {
+    padding: 160px 0;
+    text-align: center;
+    position: relative;
+    text-align: center;
+  
+}
+
+header {
+    background-image: url(images/TKMasters_Day5Food3071.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 5px;
+    line-height: 1;
+    color: white;
+    font-family: "Roboto Slab", serif;
+}
+
+@media (max-width: 640px) {
+    h1 {font-size: 60px; }
+    
+}
+
+@media (max-width: 480px) {
+    h1 {font-size: 40px; }
+    
+}
+
+section .column_container {
+    padding: 30px 200px;
+    position: relative;
+}
+
+@media (max-width: 770px) {
+    section .column_container {
+        max-width: 60%;
+        padding: 20px 0;
+    }
+    
+}
+
+@media (max-width: 350px) {
+    section .column_container {
+        max-width: 60%;
+        padding: 2% 0;
+    }
+    
+}
+
+h2 {
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+p {
+    font-family: "Roboto";
+    font-size: 1.2rem;
+}
+
+h3 {
+    font-family: "Roboto Slab";
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2%;
+}
+  
+.row div {
+    height: 100%;
+    background: #E8B331; 
+}
+
+.row h3 {
+    padding: 5% 10% 0% 10%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.row p {
+    padding: 5% 10% 5% 10%;
+    text-align: center;
+    margin-top: 0;
+}
+
+@media (max-width: 800px) {
+    .row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+    
+}
+
+@media (max-width: 450px) {
+    .row {
+        display: block;
+    }
+    
+}
+
+.checkbox-list-container {
+    display: flex;
+    gap: 20px;
+}
+
+.checkbox-column {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.checkbox-heading {
+    margin-bottom: 10px;
+    align-self: flex-start;
+}
+
+.subheading {
+    margin-bottom: 5px;
+    padding: 0px;
+    text-align: left;
+    color: navy;
+    font-size: 1.3rem;
+    font-weight: 350;
+}
+  
+.checkbox-list {
+    display: flex;
+    flex-direction: column;
+}
+  
+.checkbox-list label {
+    font-family: "Roboto";
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.checkbox-list label input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+@media (max-width: 770px) {
+    .checkbox-list-container {
+      display: block;
+    }
+}
+
+.crust {
+    display: flex;
+    align-items: flex-start;
+}
+  
+.custom-ordered-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+  
+.custom-ordered-list li {
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+/* .image1 {
+    float: right;
+    display: block;
+    max-width: 239px;
+    object-fit: cover;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.image2 {
+    float: right;
+    max-width: 300px;
+    object-fit: cover;
+    margin-top: 5px;
+    margin-left: 2%;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.column {
+    flex: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.column2 {
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.sabayonimg {
+    max-width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sabayonimg2 {
+    max-width: 300px;
+    height: 450px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.custom-ordered-list p {
+    margin-top: 0;
+}
+
+/* .image3 {
+    float: right;
+    max-width: 239px;
+    object-fit: cover;
+    padding-left: 5%;
+    padding-top: 5%;
+} */
+
+@media (max-width: 590px) {
+    /* .image1 {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        max-width: 100%;
+        max-height: 350px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        
+    } */
+
+    .image2 {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        max-width: 100%;
+        max-height: 350px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+} 
+
+@media (max-width: 890px) {
+    .column {
+        flex: 100%; 
+    }
+}
+
+@media (max-width: 600px) {
+    .sabayonimg2 {
+        max-height: 350px;
+        max-width: 100%; 
+        float: none;
+        display: block;
+    }
+}
+
+@media (max-width: 905px) {
+    .image-container2 {
+        width: 100%;
+    }
+}
+
+footer .column_container {
+    padding: 30px 200px;
+    position: relative;
+}
+
+@media (max-width: 770px) {
+    footer .column_container {
+        max-width: 60%;
+        padding: 20px 0;
+    }
+    
+}
+
+
+  
