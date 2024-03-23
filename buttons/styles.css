@@ -1,0 +1,185 @@
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.mk {
+    display: block;
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  text-transform:uppercase; 
+  color: black;
+  text-decoration: none;
+  margin-top: 65px;
+  transition: all .5s;
+ 
+}
+
+.mk:hover {
+    color: white;
+    background-color: black;
+}
+
+.apple img {
+    width:200px;
+    height:200px;
+    object-fit: contain;
+    margin-top: 20px;
+    transition: all .5s;
+}
+
+.apple img:hover {
+    content: url("images/Apple_logo_grey.svg.png");
+}
+
+.coke img {
+    width:200px;
+    height:200px;
+    object-fit: contain;
+    margin-top: 20px;
+    transition: transform .5s;
+}
+
+.coke img:hover {
+    transform: scale(1.5);
+}
+
+.npr {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    display: block;
+    font-optical-sizing: auto;
+    color: black;
+    text-decoration: none;
+    margin-top: 70px;
+    transition: all .5s;
+    letter-spacing: 10px;
+    
+}
+
+.n:hover {
+    color: red;
+}
+
+.r:hover {
+    color: blue;
+}
+
+.fb {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3b5998;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-top: 90px;
+    transition: background-color 0.3s ease;
+
+}
+
+.fb:hover {
+    background-color: #29487d;
+}
+
+.moo {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #04AB72;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-weight: light;
+    font-size: 40px;
+    border-radius: 15px;
+    text-decoration: none;
+    margin-top: 90px;
+    transition: background-color 0.3s ease;
+}
+
+.moo:hover {
+    background-color: white; 
+    color: #04AB72;  
+    border: 2px solid #04AB72;
+}
+
+.ibm {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px; 
+    height: 100px;
+    background-color: #0062ff;
+    color: white;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 50%; 
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 75px;
+}
+
+.ibm:hover {
+    transform: scale(1.5);
+}
+
+.tesla img {
+    width:200px;
+    height:200px;
+    object-fit: contain;
+    margin-top: 20px;
+    transition: all .5s;
+}
+
+.tesla img:hover {
+    content: url("images/pngimg.com\ -\ tesla_logo_PNG18.png");
+    background-color: #E91C22;
+}
+
+.oldnavy {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #013764; 
+    color: white;
+    font-family: Arial, sans-serif; 
+    font-weight: bold;
+    font-size: 35px;
+    border-radius: 50%; 
+    text-decoration: none; 
+    margin-top: 90px;
+}
+
+.oldnavy:hover {
+    color:#013764; 
+    background-color: white;
+    transform: scale(1.5);
+}
+
+.nike {
+    display: inline-block;
+    padding: 15px 25px;
+    color: black;
+    font-family: "Anton", sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    text-decoration: none; 
+    transform: skewX(-20deg);
+    margin-top: 90px;
+    transition: all .5s;
+
+}
+
+.nike:hover {
+    transform: skewX(20deg); 
+}
