@@ -116,8 +116,6 @@ nav a.active {
     margin-top: 0; 
 }
 
-
-
 .text-container {
     display: flex;
     flex-direction: column;
@@ -406,6 +404,13 @@ footer p {
 
 @media screen and (max-width: 600px) {
 
+    .header-text h1 {
+        font-size: 6em;
+        margin-left: 0; 
+        margin-bottom: 20px;
+        line-height: 60%;
+    }
+
     .home-header-container {
         flex-direction: column; 
         align-items: center;
@@ -417,13 +422,6 @@ footer p {
         margin: 0; 
         padding: 0; 
         text-align: center; 
-    }
-
-    .header-text h1 {
-        margin-left: 0; 
-        margin-bottom: 20px;
-        line-height: 60%;
-        font-size: 7em;
     }
 
     /* .gif-section img {
@@ -496,7 +494,7 @@ footer p {
 @media (max-width: 380px) {
     .header-text h1 {
         margin-left: 0; 
-        font-size: 4em;
+        font-size: 5em;
         line-height: 60%;
     }
 
