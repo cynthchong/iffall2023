@@ -454,7 +454,7 @@ footer p {
     .header-text {
         max-width: none; 
         margin: 0; 
-        margin-top: 2%;
+        margin-top: 5%;
         padding: 0; 
         text-align: center; 
     }
@@ -521,9 +521,6 @@ footer p {
 }
 
 @media (max-width: 380px) {
-    .header-text {
-        margin-top: 3%;
-    }
 
     .header-text h1 {
         margin-left: 0; 
