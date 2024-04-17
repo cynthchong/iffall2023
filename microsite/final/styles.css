@@ -124,7 +124,19 @@ nav a.active {
 }
 
 .page-title {
-    margin-top: 15%;
+    margin-top: 30%;
+    max-width: 100%;
+    padding-left: 8%;
+}
+
+.style-page-title {
+    margin-top: 30%;
+    max-width: 100%;
+    padding-left: 8%;
+}
+
+.career-page-title {
+    margin-top: 30%;
     max-width: 100%;
     padding-left: 8%;
 }
@@ -140,7 +152,7 @@ nav a.active {
     padding-left: 11%;
 }
 
-#life h1, .page-title-first h1, .page-title  h1 {
+#life h1, .page-title-first h1, .page-title  h1, .style-page-title h1, .career-page-title h1 {
     font-family: Helvetica Neue;
     font-weight: 300;
     font-size: 8em;
@@ -405,11 +417,23 @@ footer p {
         max-width: 100%;
         height: 600px;
     }
+
+    .page-title {
+        margin-top: 28%;
+    }
+
+    .career-page-title {
+        margin-top: 30%;
+    }
+
+    .style-page-title {
+        margin-top: 45%;
+    }
 }
 
 @media screen and (max-width: 780px) {
 
-    .page-title h1, .page-title-first h1, #life h1 {
+    .page-title h1, .page-title-first h1, .style-page-title h1, .career-page-title h1, #life h1 {
         font-size: 6em;
     }
 
@@ -465,7 +489,7 @@ footer p {
     } */
 
 
-    .page-title h1, .page-title-first h1, #life h1 {
+    .page-title h1, .page-title-first h1, .style-page-title h1, .career-page-title h1, #life h1 {
         font-size: 4em;
     }
 
@@ -517,6 +541,10 @@ footer p {
 
     .gif-section img {
         max-height: 380px;
+    }
+
+    .style-page-title, .career-page-title {
+        margin-top: 48%;
     }
 }
 
