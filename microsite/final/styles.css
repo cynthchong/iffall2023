@@ -512,6 +512,7 @@ footer p {
     .header-text h1 {
         margin-left: 0; 
         line-height: 65%;
+        font-size: 5.5em;
     }
 
     .gif-section img {
